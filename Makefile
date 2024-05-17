@@ -1,5 +1,5 @@
 CC = g++
-FLAGS = -Ofast -DNDEBUG -std=c++11 -DHAVE_CXX0X -march=native -fpic -w -ftree-vectorize
+FLAGS = -Ofast -DNDEBUG -std=c++11 -DHAVE_CXX0X -march=native -fpic -w -ftree-vectorize -pthread
 prog = hnsw
 test_prog = test_prog
 objects = hnsw.o
